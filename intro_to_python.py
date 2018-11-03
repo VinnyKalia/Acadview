@@ -22,7 +22,10 @@ fees=5000
 print("%s fees in %s is %d" %(course, s, fees))
 
 #ques6
-r = float(input("enter radius: ")
-pi = 3.14
-a = pi*r*r
-print("Area of Circle: %f"%(a))
+PI = 3.14
+radius = float(input(' Please Enter the radius of a circle: '))
+area = PI * radius * radius
+circumference = 2 * PI * radius
+
+print(" Area Of a Circle = %.2f" %area)
+print(" Circumference Of a Circle = %.2f" %circumference)
