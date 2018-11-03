@@ -13,6 +13,7 @@ print(l)
 
 #q3
 l=[1,2,3,1,3,4,5]
+print(l.count(3))
 
 #q4
 a=[]
